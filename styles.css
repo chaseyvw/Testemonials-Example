@@ -1,0 +1,40 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans';
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+    border: 3px solid red;
+    display: grid;
+    gap: 1.5rem;
+}
+
+.container > * {
+    border-radius: 10px;
+    border: 1px solid black;
+    display: flex; 
+    flex-direction: column;
+    gap: 0.25em;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+    justify-content: left;
+    align-items: center;
+}
+
+img {
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    border-radius: 50%;
+}
